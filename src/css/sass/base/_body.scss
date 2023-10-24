@@ -1,0 +1,28 @@
+body {
+    width:100%;
+    background-color:$primary-color;
+}
+
+.background-block {
+    &__header {
+        background-color:white;
+    }
+    &__main {
+        background-color:white;
+    }
+    &__footer {
+        background-color:$primary-color;
+    }
+    header {
+        margin:auto;
+        max-width:1200px;
+    }
+    main {
+        margin:auto;
+        max-width:1200px;
+    }
+    footer {
+        margin:auto;
+        max-width:1200px;
+    }
+}

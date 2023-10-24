@@ -5,18 +5,65 @@
   font-family: "Louis George Café";
 }
 
-.menu img {
-  width: 200px;
-  height: 150px;
+body {
+  width: 100%;
+  background-color: #F5EFF0;
 }
-.menu ul {
+
+.background-block__header {
+  background-color: white;
+}
+.background-block__main {
+  background-color: white;
+}
+.background-block__footer {
+  background-color: #F5EFF0;
+}
+.background-block header {
+  margin: auto;
+  max-width: 1200px;
+}
+.background-block main {
+  margin: auto;
+  max-width: 1200px;
+}
+.background-block footer {
+  margin: auto;
+  max-width: 1200px;
+}
+
+header {
+  display: flex;
+}
+header .logo {
+  width: 200px;
+}
+header nav ul {
   display: flex;
   list-style: none;
 }
-.menu ul li {
+header nav ul li {
   margin: 1em;
 }
-.menu ul li a {
+header nav ul li a {
+  font-family: "Playfair Display";
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+footer ul li {
+  margin: 0em 1em;
+}
+footer ul li a {
   font-family: "Playfair Display";
   text-decoration: none;
   color: black;

@@ -8,24 +8,30 @@ import PremierAnniversaire from './pages/5_1erAnniversaire';
 import Famille from './pages/6_Famille';
 import Tarifs from './pages/7_Tarifs';
 import Contact from './pages/8_Contact';
-import Menu from './components/Menu';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
     <>
-      <Menu />
-      <Routes>
-        <Route path="/" element={<Accueil />} />
-        <Route path="/grossesse" element={<Grossesse />} />
-        <Route path="/nouveau-nes" element={<NouveauNes />} />
-        <Route path="/enfants-bebe" element={<EnfantsBebe />} />
-        <Route path="/1er-anniversaire" element={<PremierAnniversaire />} />
-        <Route path="/famille" element={<Famille />} />
-        <Route path="/tarifs" element={<Tarifs />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </>
+      <Header />
+      <div className="background-block background-block__main">
+        <main>
+          <Routes>
+            <Route path="/" element={<Accueil />} />
+            <Route path="/grossesse" element={<Grossesse />} />
+            <Route path="/nouveau-nes" element={<NouveauNes />} />
+            <Route path="/enfants-bebe" element={<EnfantsBebe />} />
+            <Route path="/1er-anniversaire" element={<PremierAnniversaire />} />
+            <Route path="/famille" element={<Famille />} />
+            <Route path="/tarifs" element={<Tarifs />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+      </div>
+      <Footer />
+      </>
   );
 }
 
