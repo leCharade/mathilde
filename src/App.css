@@ -5,6 +5,10 @@
   font-family: "Louis George Café";
 }
 
+.menu img {
+  width: 200px;
+  height: 150px;
+}
 .menu ul {
   display: flex;
   list-style: none;

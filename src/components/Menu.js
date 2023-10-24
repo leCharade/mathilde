@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 export default function Menu() {
     return (
         <div className="menu">
+            <img src="./images/logo.png" />
             <ul>
                 <li><NavLink to="/">Accueil</NavLink></li>
                 <li><NavLink to="/grossesse">Grossesse</NavLink></li>
