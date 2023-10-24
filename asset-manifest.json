@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/mathilde/static/css/main.460e8213.css",
-    "main.js": "/mathilde/static/js/main.5e06a641.js",
+    "main.css": "/mathilde/static/css/main.9fa70f6c.css",
+    "main.js": "/mathilde/static/js/main.6492339d.js",
     "static/js/787.6b02b087.chunk.js": "/mathilde/static/js/787.6b02b087.chunk.js",
+    "static/media/logo.png": "/mathilde/static/media/logo.5f73053455227184d247.png",
     "index.html": "/mathilde/index.html",
-    "main.460e8213.css.map": "/mathilde/static/css/main.460e8213.css.map",
-    "main.5e06a641.js.map": "/mathilde/static/js/main.5e06a641.js.map",
+    "main.9fa70f6c.css.map": "/mathilde/static/css/main.9fa70f6c.css.map",
+    "main.6492339d.js.map": "/mathilde/static/js/main.6492339d.js.map",
     "787.6b02b087.chunk.js.map": "/mathilde/static/js/787.6b02b087.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.460e8213.css",
-    "static/js/main.5e06a641.js"
+    "static/css/main.9fa70f6c.css",
+    "static/js/main.6492339d.js"
   ]
 }
