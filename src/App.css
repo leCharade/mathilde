@@ -5,6 +5,10 @@
   font-family: "Louis George Café";
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 100%;
   background-color: #F5EFF0;
@@ -12,6 +16,13 @@ body {
 
 .background-block__header {
   background-color: white;
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+}
+.background-block__margin-header {
+  background-color: white;
+  height: 85px;
 }
 .background-block__main {
   background-color: white;
@@ -25,11 +36,13 @@ body {
 }
 .background-block main {
   margin: auto;
-  max-width: 1200px;
+  max-width: 100%;
 }
 .background-block footer {
   margin: auto;
+  padding-top: 30px;
   max-width: 1200px;
+  min-height: 80px;
 }
 
 header {
@@ -54,6 +67,7 @@ header nav ul li a {
 footer {
   display: flex;
   justify-content: space-between;
+  min-height: 80px;
 }
 footer ul {
   display: flex;
@@ -67,4 +81,150 @@ footer ul li a {
   font-family: "Playfair Display";
   text-decoration: none;
   color: black;
+}
+
+.introduction {
+  background-image: url("assets/1_Accueil/banner.jpg");
+  background-size: auto 100%; /* Ajuste la largeur à 100% et la hauteur automatiquement */
+  background-repeat: no-repeat;
+  background-position: center center; /* Centre l'image dans le bloc */
+  width: 100%;
+  height: 1080px;
+  z-index: 1;
+  display: flex; /* Utilise Flexbox pour le premier bloc */
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+}
+.introduction .alpha-grey {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background-color: rgba(40, 40, 40, 0.6);
+  z-index: 2;
+}
+.introduction__welcome {
+  position: relative;
+  z-index: 3;
+  color: white;
+  vertical-align: middle;
+  display: flex; /* Utilise Flexbox pour le premier bloc */
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  flex-wrap: wrap;
+}
+.introduction__welcome h1 {
+  font-family: "Playfair Display";
+  width: 100%;
+  text-align: center;
+  font-size: 62px;
+  text-shadow: 1px 1px 8px rgb(0, 0, 0);
+}
+.introduction__welcome p {
+  width: 60%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1em;
+  text-shadow: 1px 1px 8px rgb(0, 0, 0);
+}
+
+.works {
+  background: #f6f7fa;
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 50px;
+}
+.works h2 {
+  text-align: center;
+  color: #313131;
+  font-weight: 800;
+  line-height: 1;
+  font-size: 32px;
+  width: 65%;
+  margin: auto;
+  padding: 50px 0;
+}
+.works__photos {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  height: 300px;
+}
+.works__photos img {
+  margin: 10px;
+}
+
+.about {
+  background-color: #f5eff0;
+  width: 100%;
+  min-width: 800px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about img {
+  width: 550px;
+  height: fit-content;
+  margin: 60px 30px;
+}
+.about__text {
+  margin: 30px;
+  width: 480px;
+}
+.about__intro {
+  font-weight: 600;
+}
+.about p {
+  line-height: 1.7em;
+}
+
+.quotations {
+  background-image: url("./assets/6_Famille/293720900_5579237532140287_231894065122592073_n.jpg");
+  background-repeat: no-repeat;
+  background-position: center center; /* Centre l'image dans le bloc */
+  width: 1920px;
+  height: 600px;
+  object-fit: scale-down;
+  z-index: 1;
+  display: flex; /* Utilise Flexbox pour le premier bloc */
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+}
+.quotations .alpha-grey {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background-color: rgba(79, 79, 79, 0.4);
+  z-index: 2;
+}
+.quotations__quotes {
+  position: relative;
+  z-index: 3;
+  color: white;
+  vertical-align: middle;
+  display: flex; /* Utilise Flexbox pour le premier bloc */
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  flex-wrap: wrap;
+}
+.quotations__quotes h1 {
+  font-family: "Playfair Display";
+  width: 100%;
+  text-align: center;
+  font-size: 62px;
+  text-shadow: 1px 1px 8px rgb(0, 0, 0);
+}
+.quotations__quotes p {
+  width: 60%;
+  text-align: center;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.3em;
+  text-shadow: 1px 1px 8px rgb(0, 0, 0);
+  margin: 10px 0;
+}
+.quotations__quotes__author {
+  font-style: normal;
 }

@@ -1,3 +1,7 @@
+* {
+    box-sizing:border-box;
+}
+
 body {
     width:100%;
     background-color:$primary-color;
@@ -6,6 +10,13 @@ body {
 .background-block {
     &__header {
         background-color:white;
+        position:fixed;
+        z-index:4;
+        width:100%;
+    }
+    &__margin-header {
+        background-color:white;
+        height:85px;
     }
     &__main {
         background-color:white;
@@ -19,10 +30,12 @@ body {
     }
     main {
         margin:auto;
-        max-width:1200px;
+        max-width:100%;
     }
     footer {
         margin:auto;
+        padding-top:30px;
         max-width:1200px;
+        min-height:80px;
     }
 }

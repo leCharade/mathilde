@@ -1,19 +1,18 @@
 footer {
     display:flex;
-        justify-content: space-between;
-        ul {
-            display:flex;
-
-            list-style:none;
-            margin:0;
-            li {
-                margin: 0em 1em;
-                a {
-                font-family:'Playfair Display';
-                text-decoration: none;
-                color:black;
-                }
+    justify-content: space-between;
+    min-height:80px;
+    ul {
+        display:flex;
+        list-style:none;
+        margin:0;
+        li {
+            margin: 0em 1em;
+            a {
+            font-family:'Playfair Display';
+            text-decoration: none;
+            color:black;
             }
         }
-
+    }
 }
