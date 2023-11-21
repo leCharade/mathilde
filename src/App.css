@@ -30,22 +30,14 @@ body {
 .background-block__footer {
   background-color: #F5EFF0;
 }
-.background-block header {
-  margin: auto;
-  max-width: 1200px;
-}
 .background-block main {
   margin: auto;
   max-width: 100%;
 }
-.background-block footer {
-  margin: auto;
-  padding-top: 30px;
-  max-width: 1200px;
-  min-height: 80px;
-}
 
 header {
+  margin: auto;
+  max-width: 1200px;
   display: flex;
 }
 header .logo {
@@ -67,6 +59,10 @@ header nav ul li a {
 footer {
   display: flex;
   justify-content: space-between;
+  min-height: 80px;
+  margin: auto;
+  padding-top: 30px;
+  max-width: 1200px;
   min-height: 80px;
 }
 footer ul {

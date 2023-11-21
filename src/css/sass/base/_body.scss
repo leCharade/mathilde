@@ -24,18 +24,8 @@ body {
     &__footer {
         background-color:$primary-color;
     }
-    header {
-        margin:auto;
-        max-width:1200px;
-    }
     main {
         margin:auto;
         max-width:100%;
-    }
-    footer {
-        margin:auto;
-        padding-top:30px;
-        max-width:1200px;
-        min-height:80px;
     }
 }
