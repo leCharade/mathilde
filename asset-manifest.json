@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/mathilde/static/css/main.1229cc01.css",
-    "main.js": "/mathilde/static/js/main.4a2c6ca6.js",
+    "main.css": "/mathilde/static/css/main.510be96e.css",
+    "main.js": "/mathilde/static/js/main.a2952c9f.js",
     "static/js/787.6b02b087.chunk.js": "/mathilde/static/js/787.6b02b087.chunk.js",
     "static/media/banner.jpg": "/mathilde/static/media/banner.ed271a5839238579fb58.jpg",
+    "static/media/398138821_824033209732829__n.jpg": "/mathilde/static/media/398138821_824033209732829_1608121783406124137_n.96c2b4b8613b5b4d4290.jpg",
+    "static/media/380886519_792620476207436__n.jpg": "/mathilde/static/media/380886519_792620476207436_3185736384840187227_n.3ff030f482ff8e8c4bf2.jpg",
     "static/media/logo.png": "/mathilde/static/media/logo.5f73053455227184d247.png",
+    "static/media/293720900___n.jpg": "/mathilde/static/media/293720900_5579237532140287_231894065122592073_n.40a7c9985396deeeb5b7.jpg",
+    "static/media/981062__2096818334_o.jpg": "/mathilde/static/media/981062_10202732837425112_2096818334_o.408316ced7b302a183a5.jpg",
+    "static/media/294750092___n.jpg": "/mathilde/static/media/294750092_5592332124164161_2658708411760669555_n.a59cc88db47bb31188f1.jpg",
     "index.html": "/mathilde/index.html",
-    "main.1229cc01.css.map": "/mathilde/static/css/main.1229cc01.css.map",
-    "main.4a2c6ca6.js.map": "/mathilde/static/js/main.4a2c6ca6.js.map",
+    "main.510be96e.css.map": "/mathilde/static/css/main.510be96e.css.map",
+    "main.a2952c9f.js.map": "/mathilde/static/js/main.a2952c9f.js.map",
     "787.6b02b087.chunk.js.map": "/mathilde/static/js/787.6b02b087.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1229cc01.css",
-    "static/js/main.4a2c6ca6.js"
+    "static/css/main.510be96e.css",
+    "static/js/main.a2952c9f.js"
   ]
 }
