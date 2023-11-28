@@ -9,9 +9,11 @@ footer {
     @include mobile-only {
         max-width:100%;
         flex-wrap:wrap;
+        padding-top:15px;
     }
     div {
         @include mobile-only {
+            text-align:center;
             width:100%;
         }
     }
