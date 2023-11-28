@@ -40,15 +40,53 @@ header {
   max-width: 1200px;
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  header {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
 header .logo {
   width: 200px;
+  height: fit-content;
+}
+@media screen and (max-width: 768px) {
+  header .logo {
+    width: 150px;
+  }
+}
+header .menu-icon {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header .menu-icon {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  header nav {
+    width: 100%;
+  }
 }
 header nav ul {
   display: flex;
   list-style: none;
+  padding-inline-start: 0;
+}
+@media screen and (max-width: 768px) {
+  header nav ul {
+    flex-wrap: wrap;
+  }
 }
 header nav ul li {
   margin: 1em;
+}
+@media screen and (max-width: 768px) {
+  header nav ul li {
+    width: 100%;
+    font-size: 12px;
+    margin: 4px 20px;
+  }
 }
 header nav ul li a {
   font-family: "Playfair Display";
@@ -65,10 +103,26 @@ footer {
   max-width: 1200px;
   min-height: 80px;
 }
+@media screen and (max-width: 768px) {
+  footer {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer div {
+    width: 100%;
+  }
+}
 footer ul {
   display: flex;
   list-style: none;
   margin: 0;
+}
+@media screen and (max-width: 768px) {
+  footer ul {
+    flex-wrap: wrap;
+  }
 }
 footer ul li {
   margin: 0em 1em;
@@ -146,8 +200,20 @@ footer ul li a {
   width: fit-content;
   height: 300px;
 }
+@media screen and (max-width: 768px) {
+  .works__photos {
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+}
 .works__photos img {
   margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .works__photos img {
+    width: 80vw;
+    margin: 10px auto;
+  }
 }
 
 .about {
@@ -159,10 +225,21 @@ footer ul li a {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  .about {
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+}
 .about img {
   width: 550px;
   height: fit-content;
   margin: 60px 30px;
+}
+@media screen and (max-width: 768px) {
+  .about img {
+    width: 80vw;
+  }
 }
 .about__text {
   margin: 30px;
@@ -186,6 +263,12 @@ footer ul li a {
   display: flex; /* Utilise Flexbox pour le premier bloc */
   align-items: center; /* Centre verticalement */
   justify-content: center; /* Centre horizontalement */
+}
+@media screen and (max-width: 768px) {
+  .quotations {
+    width: 100%;
+    height: 400px;
+  }
 }
 .quotations .alpha-grey {
   width: inherit;

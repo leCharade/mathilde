@@ -2,15 +2,41 @@ header {
     margin:auto;
     max-width:1200px;
     display:flex;
+    @include mobile-only {
+        max-width:100%;
+        flex-wrap:wrap;
+    }
     .logo {
         width:200px;
+        height:fit-content;
+        @include mobile-only {
+            width:150px;
+        }
+    }
+    .menu-icon {
+        display:none;
+        @include mobile-only {
+            display:block;
+        }
     }
     nav {
+        @include mobile-only {
+            width:100%;
+        }
         ul {
             display:flex;
             list-style:none;
+            padding-inline-start: 0;
+            @include mobile-only {
+                flex-wrap:wrap;
+            }
             li {
                 margin: 1em;
+                @include mobile-only {
+                    width:100%;
+                    font-size:12px;
+                    margin:4px 20px;
+                }
                 a {
                 font-family:'Playfair Display';
                 text-decoration: none;
