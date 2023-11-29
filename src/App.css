@@ -1,6 +1,16 @@
 @charset "UTF-8";
 @import url("https://fonts.cdnfonts.com/css/louis-george-cafe");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@keyframes openMenu {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 * {
   font-family: "Louis George Café";
 }
@@ -18,7 +28,7 @@ body {
   background-color: white;
   position: fixed;
   z-index: 4;
-  width: 100%;
+  width: 100vw;
 }
 .background-block__margin-header {
   background-color: white;
@@ -42,8 +52,10 @@ header {
 }
 @media screen and (max-width: 768px) {
   header {
+    width: 100%;
     max-width: 100%;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 header .logo {
@@ -58,15 +70,32 @@ header .logo {
 }
 header .menu-icon {
   display: none;
+  font-size: 24px;
+  height: 100%;
+  background-color: #f5eff0;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin: 26px 16px 0px 16px;
+  align-items: center;
 }
 @media screen and (max-width: 768px) {
   header .menu-icon {
     display: block;
   }
 }
+header .menu-icon svg {
+  margin: 4px 7px;
+  width: 18px;
+}
 @media screen and (max-width: 768px) {
   header nav {
     width: 100%;
+    display: none;
+  }
+  header nav.menu-open {
+    display: block;
+    animation: openMenu 0.5s ease; /* Ajoutez une animation de descente de 0.5s avec une fonction d'interpolation 'ease' */
   }
 }
 header nav ul {
@@ -80,13 +109,22 @@ header nav ul {
   }
 }
 header nav ul li {
-  margin: 1em;
+  padding: 1em;
 }
 @media screen and (max-width: 768px) {
   header nav ul li {
     width: 100%;
     font-size: 12px;
-    margin: 4px 20px;
+    padding: 4px 20px;
+  }
+}
+header nav ul li:has(.activeSection) {
+  border-bottom: 1px solid black;
+}
+@media screen and (max-width: 768px) {
+  header nav ul li:has(.activeSection) {
+    background-color: #f5eff0;
+    border-bottom: 0px;
   }
 }
 header nav ul li a {
@@ -259,7 +297,7 @@ footer ul li a {
   background-image: url("./assets/6_Famille/293720900_5579237532140287_231894065122592073_n.jpg");
   background-repeat: no-repeat;
   background-position: center center; /* Centre l'image dans le bloc */
-  width: 1920px;
+  width: 100%;
   height: 600px;
   object-fit: scale-down;
   z-index: 1;
