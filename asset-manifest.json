@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mathilde/static/css/main.b677f56a.css",
-    "main.js": "/mathilde/static/js/main.b37aa024.js",
+    "main.css": "/mathilde/static/css/main.e384919d.css",
+    "main.js": "/mathilde/static/js/main.5ef934be.js",
     "static/js/787.6b02b087.chunk.js": "/mathilde/static/js/787.6b02b087.chunk.js",
     "static/media/banner.jpg": "/mathilde/static/media/banner.ed271a5839238579fb58.jpg",
     "static/media/398138821_824033209732829__n.jpg": "/mathilde/static/media/398138821_824033209732829_1608121783406124137_n.96c2b4b8613b5b4d4290.jpg",
@@ -11,12 +11,12 @@
     "static/media/981062__2096818334_o.jpg": "/mathilde/static/media/981062_10202732837425112_2096818334_o.408316ced7b302a183a5.jpg",
     "static/media/294750092___n.jpg": "/mathilde/static/media/294750092_5592332124164161_2658708411760669555_n.a59cc88db47bb31188f1.jpg",
     "index.html": "/mathilde/index.html",
-    "main.b677f56a.css.map": "/mathilde/static/css/main.b677f56a.css.map",
-    "main.b37aa024.js.map": "/mathilde/static/js/main.b37aa024.js.map",
+    "main.e384919d.css.map": "/mathilde/static/css/main.e384919d.css.map",
+    "main.5ef934be.js.map": "/mathilde/static/js/main.5ef934be.js.map",
     "787.6b02b087.chunk.js.map": "/mathilde/static/js/787.6b02b087.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b677f56a.css",
-    "static/js/main.b37aa024.js"
+    "static/css/main.e384919d.css",
+    "static/js/main.5ef934be.js"
   ]
 }
