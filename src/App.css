@@ -4,11 +4,11 @@
 @keyframes openMenu {
   from {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateX(-25px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 * {
@@ -91,11 +91,16 @@ header .menu-icon svg {
 @media screen and (max-width: 768px) {
   header nav {
     width: 100%;
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.7s ease 0.2s, transform 0.5s ease 0.3s;
+    opacity: 0;
+    transform: translateX(-80px);
   }
   header nav.menu-open {
-    display: block;
-    animation: openMenu 0.5s ease; /* Ajoutez une animation de descente de 0.5s avec une fonction d'interpolation 'ease' */
+    max-height: 224px; /* Ajoutez une animation de descente de 0.5s avec une fonction d'interpolation 'ease' */
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 header nav ul {
@@ -186,6 +191,11 @@ footer ul li a {
   align-items: center; /* Centre verticalement */
   justify-content: center; /* Centre horizontalement */
 }
+@media screen and (max-width: 768px) {
+  .introduction {
+    height: 540px;
+  }
+}
 .introduction .alpha-grey {
   width: inherit;
   height: inherit;
@@ -210,6 +220,11 @@ footer ul li a {
   font-size: 62px;
   text-shadow: 1px 1px 8px rgb(0, 0, 0);
 }
+@media screen and (max-width: 768px) {
+  .introduction__welcome h1 {
+    font-size: 48px;
+  }
+}
 .introduction__welcome p {
   width: 60%;
   text-align: center;
@@ -217,6 +232,12 @@ footer ul li a {
   font-weight: 500;
   line-height: 1em;
   text-shadow: 1px 1px 8px rgb(0, 0, 0);
+}
+@media screen and (max-width: 768px) {
+  .introduction__welcome p {
+    font-size: 26px;
+    width: 73%;
+  }
 }
 
 .works {
@@ -234,6 +255,12 @@ footer ul li a {
   width: 65%;
   margin: auto;
   padding: 50px 0;
+}
+@media screen and (max-width: 768px) {
+  .works h2 {
+    font-size: 28px;
+    width: 78%;
+  }
 }
 .works__photos {
   display: flex;
@@ -328,13 +355,6 @@ footer ul li a {
   justify-content: center; /* Centre horizontalement */
   flex-wrap: wrap;
 }
-.quotations__quotes h1 {
-  font-family: "Playfair Display";
-  width: 100%;
-  text-align: center;
-  font-size: 62px;
-  text-shadow: 1px 1px 8px rgb(0, 0, 0);
-}
 .quotations__quotes p {
   width: 60%;
   text-align: center;
@@ -344,6 +364,12 @@ footer ul li a {
   line-height: 1.3em;
   text-shadow: 1px 1px 8px rgb(0, 0, 0);
   margin: 10px 0;
+}
+@media screen and (max-width: 768px) {
+  .quotations__quotes p {
+    font-size: 24px;
+    width: 75%;
+  }
 }
 .quotations__quotes__author {
   font-style: normal;

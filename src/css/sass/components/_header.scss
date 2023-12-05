@@ -37,10 +37,15 @@ header {
     nav {
         @include mobile-only {
             width:100%;
-            display:none;
+            max-height:0;
+            overflow:hidden;
+            transition: max-height 0.3s ease, opacity 0.7s ease 0.2s, transform 0.5s ease 0.3s;
+            opacity: 0;
+            transform:translateX(-80px);
             &.menu-open {
-                display:block;
-                animation: openMenu 0.5s ease; /* Ajoutez une animation de descente de 0.5s avec une fonction d'interpolation 'ease' */            
+                max-height: 224px; /* Ajoutez une animation de descente de 0.5s avec une fonction d'interpolation 'ease' */  
+                opacity: 1;
+                transform:translateX(0);          
             }
         }
         ul {

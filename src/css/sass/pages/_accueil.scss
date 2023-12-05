@@ -9,6 +9,9 @@
     display: flex; /* Utilise Flexbox pour le premier bloc */
     align-items: center; /* Centre verticalement */
     justify-content: center; /* Centre horizontalement */
+    @include mobile-only {
+        height:540px;
+    }
     .alpha-grey {
         width:inherit;
         height:inherit;
@@ -30,7 +33,10 @@
             width:100%;
             text-align:center;
             font-size:62px;
-            text-shadow:1px 1px 8px rgba(0, 0, 0, 1)
+            text-shadow:1px 1px 8px rgba(0, 0, 0, 1);
+            @include mobile-only {
+                font-size:48px;
+            }
         }
         p {
             width:60%;
@@ -38,7 +44,11 @@
             font-size:28px;
             font-weight:500;
             line-height:1em;
-            text-shadow:1px 1px 8px rgba(0, 0, 0, 1)
+            text-shadow:1px 1px 8px rgba(0, 0, 0, 1);
+            @include mobile-only {
+                font-size:26px;
+                width:73%;
+            }
         }
     }
 }
@@ -56,6 +66,10 @@
         width:65%;
         margin:auto;
         padding:50px 0;
+        @include mobile-only {
+            font-size:28px;
+            width:78%;
+        }
     }
     &__photos {
         display:flex;
@@ -138,13 +152,6 @@
         align-items: center; /* Centre verticalement */
         justify-content: center; /* Centre horizontalement */
         flex-wrap:wrap;
-        h1 {
-            font-family:'Playfair Display';
-            width:100%;
-            text-align:center;
-            font-size:62px;
-            text-shadow:1px 1px 8px rgba(0, 0, 0, 1)
-        }
         p {
             width:60%;
             text-align:center;
@@ -154,6 +161,10 @@
             line-height:1.3em;
             text-shadow:1px 1px 8px rgba(0, 0, 0, 1);
             margin:10px 0;
+            @include mobile-only {
+                font-size:24px;
+                width:75%;
+            }
         }
         &__author {
             font-style:normal;

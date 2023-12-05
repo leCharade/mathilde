@@ -14,10 +14,10 @@ export default function Header() {
         e.preventDefault();
         setMenu(!openMenu);
         if (openMenu) {
-            setMenuIcon(faXmark);
+            setMenuIcon(faBars);
         }
         else {
-            setMenuIcon(faBars);
+            setMenuIcon(faXmark);
         }
     }
 
