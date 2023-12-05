@@ -17,9 +17,32 @@ body {
     &__margin-header {
         background-color:white;
         height:85px;
+        @include mobile-only {
+            height:79.52px;
+        }
     }
     &__main {
-        background-color:white;
+        background: #f6f7fa;
+        .page {
+            max-width:1024px;
+            margin:auto;
+            padding:10px 0 15px 0;
+            h1 {
+                font-size:60px;
+                font-weight:200;
+                box-sizing:border-box;
+                text-align: center;
+                margin:0 auto 40px auto;
+                padding:10px 0;
+                width:100%;
+                background-color:$primary-color;
+                box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.23);
+            }
+            p {
+                line-height:28px;
+                font-size:18px;
+            }
+        }
     }
     &__footer {
         background-color:$primary-color;

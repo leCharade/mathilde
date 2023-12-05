@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Famille() {
     return (
-        <div>
+        <div className="page page--famille">
             <h1>Famille</h1>
             <p>Cette séance peut se réaliser en studio ou en extérieur. Chez nous, les beaux endroits ne manquent pas (oui oui, je suis amoureuse de ma région natale 😉) ! Et il n'y a pas d'âge pour créer de magnifiques clichés en famille, de 0 à 99 ans laissez vous tenter! C'est tellement important ces souvenirs...</p>
             <p>N'ayez crainte même si vous n'avez jamais fait de séance photo, c'est facile! Je mettrai en œuvre mon savoir-faire en vous guidant pendant tout son déroulement. </p>

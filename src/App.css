@@ -34,8 +34,33 @@ body {
   background-color: white;
   height: 85px;
 }
+@media screen and (max-width: 768px) {
+  .background-block__margin-header {
+    height: 79.52px;
+  }
+}
 .background-block__main {
-  background-color: white;
+  background: #f6f7fa;
+}
+.background-block__main .page {
+  max-width: 1024px;
+  margin: auto;
+  padding: 10px 0 15px 0;
+}
+.background-block__main .page h1 {
+  font-size: 60px;
+  font-weight: 200;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto 40px auto;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #F5EFF0;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.23);
+}
+.background-block__main .page p {
+  line-height: 28px;
+  font-size: 18px;
 }
 .background-block__footer {
   background-color: #F5EFF0;
@@ -373,4 +398,16 @@ footer ul li a {
 }
 .quotations__quotes__author {
   font-style: normal;
+}
+
+.page--nouveaunes div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 960px;
+}
+.page--nouveaunes div p {
+  width: 47%;
+  height: fit-content;
+  margin-right: 6%;
 }

@@ -1,0 +1,13 @@
+.page--nouveaunes {
+    div {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        max-height:960px;
+        p {
+            width:47%;
+            height:fit-content;
+            margin-right:6%;
+        }
+    }   
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Grossesse() {
     return (
-        <div>
+        <div className="page page--grossesse">
             <h1>Séance grossesse</h1>
             <p>L'idéal pour réaliser cette séance est au cours du 7ème mois, le ventre est bien rond, maman pas trop fatiguée et il y a aussi beaucoup moins de risques de rater sa séance si bébé arrive un peu avant... Les photos peuvent se dérouler en intérieur ou extérieur au choix, et on discutera avant du thème, style, tenues, lieux... Elles peuvent se faire seule, en couple ou en famille.</p>
             <p>N'ayez aucune crainte, l'ambiance est détendue ! Je suis là pour vous mettre à l'aise et vous guider de A à Z sur les poses, le regard, l'expression du visage...</p>
