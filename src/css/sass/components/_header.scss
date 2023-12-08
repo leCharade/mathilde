@@ -57,10 +57,18 @@ header {
             }
             li {
                 padding: 1em;
+                transition: border-bottom 0.3s ease;
+                border-bottom: 0px;
                 @include mobile-only {
                     width:100%;
                     font-size:12px;
                     padding:4px 20px;
+                }
+                &:hover {
+                    border-bottom: 1px solid black;
+                    @include mobile-only {
+                        border-bottom: 0px;
+                    }
                 }
                 &:has(.activeSection) {
                     border-bottom: 1px solid black;
