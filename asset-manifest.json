@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mathilde/static/css/main.e53d54d7.css",
+    "main.css": "/mathilde/static/css/main.54e048d8.css",
     "main.js": "/mathilde/static/js/main.5ef934be.js",
     "static/js/787.6b02b087.chunk.js": "/mathilde/static/js/787.6b02b087.chunk.js",
     "static/media/banner.jpg": "/mathilde/static/media/banner.ed271a5839238579fb58.jpg",
@@ -11,12 +11,12 @@
     "static/media/981062__2096818334_o.jpg": "/mathilde/static/media/981062_10202732837425112_2096818334_o.408316ced7b302a183a5.jpg",
     "static/media/294750092___n.jpg": "/mathilde/static/media/294750092_5592332124164161_2658708411760669555_n.a59cc88db47bb31188f1.jpg",
     "index.html": "/mathilde/index.html",
-    "main.e53d54d7.css.map": "/mathilde/static/css/main.e53d54d7.css.map",
+    "main.54e048d8.css.map": "/mathilde/static/css/main.54e048d8.css.map",
     "main.5ef934be.js.map": "/mathilde/static/js/main.5ef934be.js.map",
     "787.6b02b087.chunk.js.map": "/mathilde/static/js/787.6b02b087.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e53d54d7.css",
+    "static/css/main.54e048d8.css",
     "static/js/main.5ef934be.js"
   ]
 }
