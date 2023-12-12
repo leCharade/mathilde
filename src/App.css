@@ -140,14 +140,15 @@ header nav ul {
 }
 header nav ul li {
   padding: 1em;
-  transition: border-bottom 0.3s ease;
-  border-bottom: 0px;
+  transition: border-bottom 0.25s ease;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 @media screen and (max-width: 768px) {
   header nav ul li {
     width: 100%;
     font-size: 12px;
     padding: 4px 20px;
+    border-bottom: 0px;
   }
 }
 header nav ul li:hover {
