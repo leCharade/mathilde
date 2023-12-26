@@ -1,3 +1,5 @@
+@import 'utils/coreuifunctions';
+@import 'utils/coreuivariables';
 @import 'utils/variables';
 @import 'utils/mixins';
 @import 'utils/animations';
@@ -5,5 +7,7 @@
 @import 'base/body';
 @import 'components/header';
 @import 'components/footer';
+@import 'components/carousel';
+@import 'pages/standard';
 @import 'pages/accueil';
 @import 'pages/nouveaunes';

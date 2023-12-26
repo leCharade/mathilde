@@ -1,0 +1,9 @@
+.carousel {
+    width:60%;
+    max-width:900px;
+    margin:auto;
+    @include mobile-only {
+        width:90%;
+        max-width:none;
+    }
+}

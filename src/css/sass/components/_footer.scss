@@ -10,6 +10,7 @@ footer {
         max-width:100%;
         flex-wrap:wrap;
         padding-top:15px;
+        font-size:14px;
     }
     div {
         @include mobile-only {
@@ -21,11 +22,18 @@ footer {
         display:flex;
         list-style:none;
         margin:0;
+        padding:0;
+        color:#524949;
         @include mobile-only {
             flex-wrap:wrap;
+            justify-content:center;
+            margin:10px;
         }
         li {
-            margin: 0em 1em;
+            margin: 0 0 0 18px;
+            @include mobile-only {
+                margin: 2px 4px;
+            }
             a {
             font-family:'Playfair Display';
             text-decoration: none;

@@ -4,6 +4,8 @@
   "homepage": "https://lecharade.github.io/mathilde/",
   "private": true,
   "dependencies": {
+    "@coreui/coreui": "^4.3.2",
+    "@coreui/react": "^4.11.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",

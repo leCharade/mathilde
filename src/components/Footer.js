@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <div className="background-block background-block__footer">
             <footer>
-                <div>Copyright 2023 | Tous droits réservés.</div>
+                <div>Copyright 2023 - Réalisé par Tom Tournillon. Tous droits réservés.</div>
                 <div>
                     <ul className="links">
                         <li>Mentions légales</li>

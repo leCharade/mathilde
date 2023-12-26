@@ -4,6 +4,10 @@ import image2 from '../assets/3_Nouveau-nés/380886519_792620476207436_318573638
 import image3 from '../assets/6_Famille/398138821_824033209732829_1608121783406124137_n.jpg';
 import image4 from '../assets/4_Enfants_Bébés/981062_10202732837425112_2096818334_o.jpg';
 
+import { CCarousel } from '@coreui/react'
+import { CCarouselItem } from '@coreui/react'
+import { CImage } from '@coreui/react'
+
 export default function Accueil() {
     return (
         <div>
@@ -16,11 +20,22 @@ export default function Accueil() {
             </section>
             <section className="works">
                 <h2>J'aime la vie, j'aime mon métier, et je le fais avec amour et passion ! Maintenant vous en savez un peu plus sur moi, je vous laisse découvrir mon travail...</h2>
-                <div className="works__photos">
+                {/* <div className="works__photos">
                     <img src={image1} />
                     <img src={image2} />
                     <img src={image3} />
-                </div>
+                </div> */}
+                <CCarousel controls indicators>
+                    <CCarouselItem>
+                        <CImage className="d-block w-100" src={image1} alt="slide 1" />
+                    </CCarouselItem>
+                    <CCarouselItem>
+                        <CImage className="d-block w-100" src={image2} alt="slide 2" />
+                    </CCarouselItem>
+                    <CCarouselItem>
+                        <CImage className="d-block w-100" src={image3} alt="slide 3" />
+                    </CCarouselItem>
+                    </CCarousel>
             </section>
             {/* <section className="about">
                 <img src={image4} />

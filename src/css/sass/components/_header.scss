@@ -54,6 +54,7 @@ header {
             padding-inline-start: 0;
             @include mobile-only {
                 flex-wrap:wrap;
+                margin-bottom:8px;
             }
             li {
                 padding: 1em;
