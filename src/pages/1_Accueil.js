@@ -35,7 +35,7 @@ export default function Accueil() {
                     <CCarouselItem>
                         <CImage className="d-block w-100" src={image3} alt="slide 3" />
                     </CCarouselItem>
-                    </CCarousel>
+                </CCarousel>
             </section>
             {/* <section className="about">
                 <img src={image4} />

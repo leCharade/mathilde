@@ -113,11 +113,13 @@ header nav ul {
   display: flex;
   list-style: none;
   padding-inline-start: 0;
+  margin-top: 12px;
 }
 @media screen and (max-width: 768px) {
   header nav ul {
     flex-wrap: wrap;
     margin-bottom: 8px;
+    margin-top: 0px;
   }
 }
 header nav ul li {
@@ -217,6 +219,10 @@ footer ul li a {
     width: 90%;
     max-width: none;
   }
+}
+
+.carousel-box {
+  padding-bottom: 32px;
 }
 
 .page {

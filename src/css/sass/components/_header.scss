@@ -52,9 +52,11 @@ header {
             display:flex;
             list-style:none;
             padding-inline-start: 0;
+            margin-top:12px;
             @include mobile-only {
                 flex-wrap:wrap;
                 margin-bottom:8px;
+                margin-top:0px;
             }
             li {
                 padding: 1em;
@@ -69,7 +71,6 @@ header {
                 &:hover {
                     border-bottom: 1px solid black;
                     @include mobile-only {
-
                         border-bottom: 0px;
                     }
                 }
