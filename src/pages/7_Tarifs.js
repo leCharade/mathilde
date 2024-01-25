@@ -19,7 +19,7 @@ export default function Tarifs() {
                         <li>Galerie en ligne pour le choix de vos photos</li>
                     </ul>
                     <div className="tarif">
-                        <div>180 €</div>
+                        <div>160 €</div>
                         <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
                     </div>                </article>
                 <article className="cardfee">
@@ -33,7 +33,7 @@ export default function Tarifs() {
                         <li>Galerie en ligne pour le choix de vos photos</li>
                     </ul>
                     <div className="tarif">
-                        <div>180 €</div>
+                        <div>280 €</div>
                         <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
                     </div>                </article>
                 <article className="cardfee">
@@ -47,7 +47,7 @@ export default function Tarifs() {
                         <li>Galerie en ligne pour le choix de vos photos</li>
                     </ul>
                     <div className="tarif">
-                        <div>180 €</div>
+                        <div>160 €</div>
                         <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
                     </div>                </article>
                 <article className="cardfee">
@@ -63,7 +63,7 @@ export default function Tarifs() {
                         <li>Galerie en ligne pour le choix de vos photos</li>
                     </ul>
                     <div className="tarif">
-                        <div>180 €</div>
+                        <div>160 €</div>
                         <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
                     </div>                </article>
                 <article className="cardfee">
@@ -76,7 +76,7 @@ export default function Tarifs() {
                         <li>Galerie en ligne pour le choix de vos photos</li>
                     </ul>
                     <div className="tarif">
-                        <div>180 €</div>
+                        <div>160 €</div>
                         <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
                     </div>
                 </article>
