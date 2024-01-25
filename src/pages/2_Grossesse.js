@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ReserverSeance from '../components/ReserverSeance';
+
 import { CCarousel } from '@coreui/react'
 import { CCarouselItem } from '@coreui/react'
 import { CImage } from '@coreui/react'
@@ -21,6 +23,7 @@ export default function Grossesse() {
                 <p>Pour avoir des disponibilités, les réservations se font dès la fin de votre 1er trimestre. Un acompte vous sera demandé pour valider votre réservation.</p>
                 <p>Voilà pour les points importants, si vous avez d'autres questions surtout n'hésitez pas à revenir vers moi !</p>
             </div>
+            <ReserverSeance />
             <div className="carousel-box">
                 <CCarousel controls indicators>
                     {imageList.map((image, index) => (

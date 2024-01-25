@@ -1,7 +1,7 @@
 {
   "name": "mathilde",
   "version": "0.1.0",
-  "homepage": "https://lecharade.github.io/mathilde/",
+  "homepage": "https://lecharade.github.io/",
   "private": true,
   "dependencies": {
     "@coreui/coreui": "^4.3.2",

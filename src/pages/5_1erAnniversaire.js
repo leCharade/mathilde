@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ReserverSeance from '../components/ReserverSeance';
+
 import { CCarousel } from '@coreui/react'
 import { CCarouselItem } from '@coreui/react'
 import { CImage } from '@coreui/react'
@@ -17,6 +19,7 @@ export default function PremierAnniversaire() {
                 <p>Cette séance c'est vraiment trop marrant et ça permet de garder de merveilleux souvenirs de son 1er anniversaire...</p>
                 <p>Si vous voulez que bébé vienne fêter sa 1ère bougie en photo contactez moi dès ses 6 mois pour réserver. </p>
             </div>
+            <ReserverSeance />
             <div className="carousel-box">
                 <CCarousel controls indicators>
                     {imageList.map((image, index) => (

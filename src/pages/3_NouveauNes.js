@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ReserverSeance from '../components/ReserverSeance';
+
 import { CCarousel } from '@coreui/react'
 import { CCarouselItem } from '@coreui/react'
 import { CImage } from '@coreui/react'
@@ -25,6 +27,7 @@ export default function NouveauNes() {
                     <p>Au plaisir de rencontrer bientôt vos petites merveilles...!</p>
                 </div>
             </div>
+            <ReserverSeance />
             <div className="carousel-box">
                 <CCarousel controls indicators>
                     {imageList.map((image, index) => (

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ReserverSeance from '../components/ReserverSeance';
+
 import { CCarousel } from '@coreui/react'
 import { CCarouselItem } from '@coreui/react'
 import { CImage } from '@coreui/react'
@@ -17,6 +19,7 @@ export default function Famille() {
                 <p>Que ce soit parents/enfants, avec les grands-parents, mère/fille, entre sœurs, en couple... Bref on passe tout le temps un bon moment ! N'hésitez pas à prendre contact avec moi et à me faire part de vos envies !</p>
                 <p>On réalisera ensemble une jolie séance pour immortaliser ces précieux instants.</p>
             </div>
+            <ReserverSeance />
             <div className="carousel-box">
                 <CCarousel controls indicators>
                     {imageList.map((image, index) => (
