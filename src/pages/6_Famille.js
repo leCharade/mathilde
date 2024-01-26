@@ -10,6 +10,9 @@ const images = require.context('../assets/6_Famille/', true);
 const imageList = images.keys().map(image => images(image));
 
 export default function Famille() {
+        
+    document.title = "Famille — Photographie by Mathilde";
+    
     return (
         <>
             <div className="page page--famille">

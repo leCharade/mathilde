@@ -10,6 +10,9 @@ const images = require.context('../assets/2_Grossesse/', true);
 const imageList = images.keys().map(image => images(image));
 
 export default function Grossesse() {
+    
+    document.title = "Séance grossesse — Photographie by Mathilde";
+    
     return (
         <>
             <div className="page page--grossesse">

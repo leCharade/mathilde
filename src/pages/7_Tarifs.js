@@ -2,6 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 export default function Tarifs() {
+    
+    document.title = "Tarifs — Photographie by Mathilde";
+    
     return (
         <div className="page page--tarifs">
             <h1>Tarifs</h1>

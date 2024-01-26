@@ -9,6 +9,9 @@ import { CCarouselItem } from '@coreui/react'
 import { CImage } from '@coreui/react'
 
 export default function Accueil() {
+
+    document.title = "Photographie by Mathilde — Un Jour, Une Histoire";
+    
     return (
         <div>
             <section className="introduction">

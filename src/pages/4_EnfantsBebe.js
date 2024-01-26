@@ -10,6 +10,9 @@ const images = require.context('../assets/4_Enfants_Bébés/', true);
 const imageList = images.keys().map(image => images(image));
 
 export default function EnfantsBebe() {
+        
+    document.title = "Enfants Bébé — Photographie by Mathilde";
+    
     return (
         <>
             <div className="page page--enfantsbebes">

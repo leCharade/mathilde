@@ -10,6 +10,9 @@ const images = require.context('../assets/5_1er_anniversaire/', true);
 const imageList = images.keys().map(image => images(image));
 
 export default function PremierAnniversaire() {
+        
+    document.title = "1er anniversaire — Photographie by Mathilde";
+    
     return (
         <>
             <div className="page page--1eranniversaire">

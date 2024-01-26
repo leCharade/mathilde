@@ -10,10 +10,13 @@ const images = require.context('../assets/3_Nouveau-nés/', true);
 const imageList = images.keys().map(image => images(image));
 
 export default function NouveauNes() {
+        
+    document.title = "Nouveau-nés — Photographie by Mathilde";
+    
     return (
         <>
             <div className="page page--nouveaunes">
-                <h1>Nouveau nés</h1>
+                <h1>Nouveau-nés</h1>
                 <div>
                     <p>Être photographe nouveau-nés est un art qui demande beaucoup de passion et d'amour pour son métier, énormément de patience, une excellente formation sur la physiologie de bébé et sa sécurité, un environnement sain et du matériel adapté.</p>
                     <p>La séance dure environ 3h afin de privilégier son bien-être... Bébé doit se sentir en totale confiance et suffisamment relaxé pour obtenir ces images emplies de sérénité et de douceur. On passe souvent plus de temps à apaiser bébé qu'à le photographier. On prend également le temps pour les tétées et pour se rendormir tranquillement afin que je puisse le positionner sereinement. Je profiterai aussi des phases d'éveil pour prendre quelques clichés yeux ouverts.</p>
