@@ -67,7 +67,7 @@ export default function Tarifs() {
                         <li>Galerie en ligne pour le choix de vos photos</li>
                     </ul>
                     <div className="tarif">
-                        <div>160 €</div>
+                        <div>210 €</div>
                         <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
                     </div>
                 </article>
