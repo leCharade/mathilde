@@ -5,8 +5,8 @@ export default function Tarifs() {
     return (
         <div className="page page--tarifs">
             <h1>Tarifs</h1>
-            <p>Bienvenue sur notre page Tarifs ! Nous sommes ravis de vous présenter nos tarifs pour nos services photo spéciaux.</p>
-            <p>Nous mettons tout en œuvre pour vous offrir des expériences photo uniques et personnalisées. Chaque séance est réalisée avec soin, créativité et amour, pour que chaque cliché reflète l'essence même de votre famille. Contactez-nous dès maintenant pour réserver votre séance photo et laissez-nous capturer ces moments précieux pour vous !</p>
+            <p>Chacune de mes séances est réalisée avec soin, créativité et amour. Je mets tout en œuvre pour vous offrir des expériences photo uniques et personnalisées.</p>
+            <p>Voici le détail et les tarifs de mes prestations.</p>
             <section className="liste-tarifs">
                 <article className="cardfee">
                     <h2>Séance grossesse</h2>
@@ -15,13 +15,14 @@ export default function Tarifs() {
                         <li>Le savoir-faire de votre photographe</li>
                         <li>10 fichiers numériques HD</li>
                         <li>Tri et retouches soignées de vos images</li>
-                        <li>Prêt de tenues et accessoires pour la séance</li>
+                        <li>Prêt de tenues et accessoires</li>
                         <li>Galerie en ligne pour le choix de vos photos</li>
                     </ul>
                     <div className="tarif">
                         <div>160 €</div>
                         <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
-                    </div>                </article>
+                    </div>
+                </article>
                 <article className="cardfee">
                     <h2>Séance nouveau-nés</h2>
                     <ul>
@@ -29,27 +30,30 @@ export default function Tarifs() {
                         <li>Le savoir-faire de votre photographe</li>
                         <li>10 fichiers numériques HD</li>
                         <li>Tri et retouches soignées de vos images</li>
-                        <li>Prêt de tenues et accessoires pour la séance</li>
+                        <li>Prêt de tenues et accessoires</li>
                         <li>Galerie en ligne pour le choix de vos photos</li>
                     </ul>
                     <div className="tarif">
                         <div>280 €</div>
                         <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
-                    </div>                </article>
+                    </div>
+                </article>
                 <article className="cardfee">
-                    <h2>Séance enfants bébés</h2>
+                    <h2>Séance enfants bébés <br />
+                    <p className="title-info">(à partir de 6 mois)</p></h2>
                     <ul>
                         <li>Séance photo d'environ une heure (en studio ou en extérieur)</li>
                         <li>Le savoir-faire de votre photographe</li>
                         <li>10 fichiers numériques HD</li>
                         <li>Tri et retouches soignées de vos images</li>
-                        <li>Prêt de tenues et accessoires pour la séance</li>
+                        <li>Prêt de tenues et accessoires</li>
                         <li>Galerie en ligne pour le choix de vos photos</li>
                     </ul>
                     <div className="tarif">
                         <div>160 €</div>
                         <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
-                    </div>                </article>
+                    </div>
+                </article>
                 <article className="cardfee">
                     <h2>Séance 1er anniversaire</h2>
                     <ul>
@@ -57,7 +61,7 @@ export default function Tarifs() {
                         <li>Le savoir-faire de votre photographe</li>
                         <li>10 fichiers numériques HD</li>
                         <li>Tri et retouches soignées de vos images</li>
-                        <li>Prêt de tenues et accessoires pour la séance</li>
+                        <li>Prêt de tenues et accessoires</li>
                         <li>Gâteau d'anniversaire créé par une pâtissière</li>
                         <li>Décor à thème</li>
                         <li>Galerie en ligne pour le choix de vos photos</li>
@@ -65,7 +69,8 @@ export default function Tarifs() {
                     <div className="tarif">
                         <div>160 €</div>
                         <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
-                    </div>                </article>
+                    </div>
+                </article>
                 <article className="cardfee">
                     <h2>Séance famille</h2>
                     <ul>
@@ -92,7 +97,7 @@ export default function Tarifs() {
                     <li>1 photo : 15 €</li>
                     <li>5 photos : 60 €</li>
                     <li>10 photos : 100 €</li>
-                    <li>L'intégralité : 150 €</li>
+                    <li>L'intégralité de la galerie : 150 €</li>
                 </ul>
                 <h3>Tirages et agrandissements</h3>
                 <ul>
