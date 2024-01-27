@@ -42,7 +42,7 @@ export default function Tarifs() {
                     </div>
                 </article>
                 <article className="cardfee">
-                    <h2>Séance enfants bébés <br />
+                    <h2>Séance enfants / bébés <br />
                     <p className="title-info">(à partir de 6 mois)</p></h2>
                     <ul>
                         <li>Séance photo d'environ une heure (en studio ou en extérieur)</li>
@@ -100,7 +100,7 @@ export default function Tarifs() {
                     <li>1 photo : 15 €</li>
                     <li>5 photos : 60 €</li>
                     <li>10 photos : 100 €</li>
-                    <li>L'intégralité de la galerie : 150 €</li>
+                    <li>L'intégralité de la galerie : 200 €</li>
                 </ul>
                 <h3>Tirages et agrandissements</h3>
                 <ul>

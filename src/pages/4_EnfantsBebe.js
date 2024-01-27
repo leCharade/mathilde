@@ -11,12 +11,12 @@ const imageList = images.keys().map(image => images(image));
 
 export default function EnfantsBebe() {
         
-    document.title = "Enfants Bébé — Photographie by Mathilde";
+    document.title = "Enfants / Bébés — Photographie by Mathilde";
     
     return (
         <>
             <div className="page page--enfantsbebes">
-                <h1>Enfants Bébé (à partir de 6 mois)</h1>
+                <h1>Enfants / Bébés (à partir de 6 mois)</h1>
                 <p>Dès que bébé tient assis c'est le moment idéal pour réaliser une belle séance photos, plein de petites mimiques adorables et des sourires à tout va ! On peut varier les positions, et faire plein de belles choses ! C'est une de mes séances préférées !</p>
                 <p>Elle peut se dérouler en studio avec 2 décors différents ou en extérieur selon les saisons et les conditions météo, il y a tellement de beaux endroits chez nous !...</p>
                 <p>J'ai également des accessoires adaptés à chaque âge, et quelques tenues pour les 6-12 mois. Elles seront à disposition au studio, mais il sera nécessaire d'en prévoir au moins une à lui et je vous guiderai sur le choix.</p>

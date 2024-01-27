@@ -2,7 +2,6 @@ import React from 'react';
 import image1 from '../assets/2_Grossesse/294750092_5592332124164161_2658708411760669555_n.jpg';
 import image2 from '../assets/3_Nouveau-nés/380886519_792620476207436_3185736384840187227_n.jpg';
 import image3 from '../assets/6_Famille/398138821_824033209732829_1608121783406124137_n.jpg';
-import image4 from '../assets/4_Enfants_Bébés/981062_10202732837425112_2096818334_o.jpg';
 
 import { CCarousel } from '@coreui/react'
 import { CCarouselItem } from '@coreui/react'
@@ -11,7 +10,7 @@ import { CImage } from '@coreui/react'
 export default function Accueil() {
 
     document.title = "Photographie by Mathilde — Un Jour, Une Histoire";
-    
+
     return (
         <div>
             <section className="introduction">

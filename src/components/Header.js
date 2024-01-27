@@ -34,7 +34,7 @@ export default function Header() {
                             <li><NavLink to="/" className={({ isActive }) => (isActive ? "activeSection" : undefined)} >Accueil</NavLink></li>
                             <li><NavLink to="/grossesse" className={({ isActive }) => (isActive ? "activeSection" : undefined)} >Grossesse</NavLink></li>
                             <li><NavLink to="/nouveau-nes" className={({ isActive }) => (isActive ? "activeSection" : undefined)} >Nouveau-nés</NavLink></li>
-                            <li><NavLink to="/enfants-bebe" className={({ isActive }) => (isActive ? "activeSection" : undefined)} >Enfants bébés</NavLink></li>
+                            <li><NavLink to="/enfants-bebe" className={({ isActive }) => (isActive ? "activeSection" : undefined)} >Enfants / bébés</NavLink></li>
                             <li><NavLink to="/1er-anniversaire" className={({ isActive }) => (isActive ? "activeSection" : undefined)} >1er anniversaire</NavLink></li>
                             <li><NavLink to="/famille" className={({ isActive }) => (isActive ? "activeSection" : undefined)} >Famille</NavLink></li>
                             <li><NavLink to="/tarifs" className={({ isActive }) => (isActive ? "activeSection" : undefined)} >Tarifs</NavLink></li>
