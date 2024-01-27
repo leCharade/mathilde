@@ -342,6 +342,18 @@ footer ul li a {
   }
 }
 
+#map {
+  width: 700px;
+  height: 400px;
+  margin: 30px auto;
+}
+@media screen and (max-width: 768px) {
+  #map {
+    width: 95%;
+    height: 300px;
+  }
+}
+
 .page {
   max-width: 1024px;
   margin: auto;
@@ -639,4 +651,9 @@ footer ul li a {
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.page--contact svg {
+  margin-right: 16px;
+  font-size: 16px;
 }
