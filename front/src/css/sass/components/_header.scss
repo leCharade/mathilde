@@ -1,0 +1,92 @@
+header {
+    margin:auto;
+    max-width:1200px;
+    display:flex;
+    @include mobile-only {
+        width:100%;
+        max-width:100%;
+        flex-wrap:wrap;
+        justify-content: space-between;
+    }
+    .logo {
+        width:200px;
+        height:fit-content;
+        @include mobile-only {
+            width:160px;
+            margin:8px;
+        }
+    }
+    .menu-icon {
+        display:none;
+        font-size:24px;
+        height:100%;
+        background-color:#f5eff0;
+        width:32px;
+        height:32px;
+        border-radius:16px;
+        margin:26px 16px 0px 16px;
+        align-items: center;
+        @include mobile-only {
+            display:block;
+        }
+        svg {
+            margin:4px 7px;
+            width:18px;
+        }
+    }
+    nav {
+        @include mobile-only {
+            width:100%;
+            max-height:0;
+            overflow:hidden;
+            transition: max-height 0.3s ease, opacity 0.7s ease 0.2s, transform 0.5s ease 0.3s;
+            opacity: 0;
+            transform:translateX(-80px);
+            &.menu-open {
+                max-height: 224px; /* Ajoutez une animation de descente de 0.5s avec une fonction d'interpolation 'ease' */  
+                opacity: 1;
+                transform:translateX(0);          
+            }
+        }
+        ul {
+            display:flex;
+            list-style:none;
+            padding-inline-start: 0;
+            margin-top:12px;
+            @include mobile-only {
+                flex-wrap:wrap;
+                margin-bottom:8px;
+                margin-top:0px;
+            }
+            li {
+                padding: 1em;
+                transition: border-bottom 0.25s ease;
+                border-bottom: 1px solid rgba(0,0,0,0);
+                @include mobile-only {
+                    width:100%;
+                    font-size:12px;
+                    padding:4px 20px;
+                    border-bottom: 0px;
+                }
+                &:hover {
+                    border-bottom: 1px solid black;
+                    @include mobile-only {
+                        border-bottom: 0px;
+                    }
+                }
+                &:has(.activeSection) {
+                    border-bottom: 1px solid black;
+                    @include mobile-only {
+                        background-color:#f5eff0;
+                        border-bottom: 0px;
+                    }
+                }
+                a {
+                font-family:'Playfair Display';
+                text-decoration: none;
+                color:black;
+                }
+            }
+        }
+    }
+}

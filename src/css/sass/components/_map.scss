@@ -1,9 +1,0 @@
-#map {
-    width:700px;
-    height:400px;
-    margin:30px auto;
-    @include mobile-only {
-        width:95%;
-        height:300px;
-    }
-}

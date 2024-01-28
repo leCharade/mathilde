@@ -1,0 +1,10 @@
+@keyframes openMenu {
+    from {
+        opacity: 0;
+        transform:translateX(-25px);
+    }
+    to {
+        opacity: 1;
+        transform:translateX(0);
+    }
+}

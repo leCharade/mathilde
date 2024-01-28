@@ -1,0 +1,34 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    width:100%;
+    background-color:$primary-color;
+}
+
+.background-block {
+    &__header {
+        background-color:white;
+        position:fixed;
+        z-index:4;
+        width:100vw;
+    }
+    &__margin-header {
+        background-color:white;
+        height:85px;
+        @include mobile-only {
+            height:79.52px;
+        }
+    }
+    &__main {
+        background: #f6f7fa;
+    }
+    &__footer {
+        background-color:$primary-color;
+    }
+    main {
+        margin:auto;
+        max-width:100%;
+    }
+}
