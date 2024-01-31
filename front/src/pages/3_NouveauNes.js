@@ -24,8 +24,8 @@ export default function NouveauNes() {
                     <p>Je photographie bébé tout seul mais aussi avec maman, papa et les aînés sont également les bienvenus. Il faudra me prévenir de leur présence afin que j'organise au mieux votre séance... 3h c'est beaucoup trop long pour eux, il est donc préférable qu'ils nous rejoignent un peu avant la fin (accompagnés par papa, par exemple) pour les photos fratrie et famille.</p>
                     <p>Voilà, maintenant vous en savez un peu plus sur le déroulement de cette séance.</p>
                     <p>Vous souhaitez que j'immortalise ce précieux moment des premiers jours de votre bébé ?</p>
-                    <p>Pour des questions d'organisation, il est important de me contacter durant votre grossesse (idéalement dès le second trimestre) afin de me communiquer votre DPA (date prévue d'accouchement) pour réserver sa place. Ensuite il ne restera plus qu'à attendre que bébé pointe le bout de son nez, c'est à ce moment-là que nous fixerons le jour exact de la séance.</p>
-                    <p>Ah oui, j'allais oublier... Toutes les tenues et tous les accessoires sont fournis, ce sont des produits fait main, fabriqués en France par des créatrices spécialisées, et des tissus adaptés à la peau sensible de vos bébés...</p>
+                    <p>Pour des questions d'organisation, il est important de me contacter durant votre grossesse (idéalement dès le second trimestre) afin de me communiquer votre DPA (date prévue d'accouchement) pour réserver sa place. Un acompte vous sera demandé lors de la réservation. Ensuite il ne restera plus qu'à attendre que bébé pointe le bout de son nez, et c'est à ce moment-là que nous fixerons le jour de la séance.</p>
+                    <p>Toutes les tenues et tous les accessoires sont fournis. Ce sont des produits fait main, fabriqués par des créatrices spécialisées, et des tissus adaptés à la peau sensible de vos bébés... Vous pouvez aussi amener des objets ou accessoires en rapport avec vos passions, métiers, origines... Si vous souhaitez une mise en scène personnalisée !</p>
                     <p>Si vous avez d'autres questions, n'hésitez pas à me contacter...</p>
                     <p>Au plaisir de rencontrer bientôt vos petites merveilles...!</p>
                 </div>
@@ -36,7 +36,6 @@ export default function NouveauNes() {
                     {imageList.map((image, index) => (
                         <CCarouselItem>
                             <CImage key={index} className="d-block w-100" src={image} alt={`image-${index}`} />
-                            {console.log(image)}
                         </CCarouselItem>
                     ))}
                 </CCarousel>

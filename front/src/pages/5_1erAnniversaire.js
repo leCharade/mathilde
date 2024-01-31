@@ -28,7 +28,6 @@ export default function PremierAnniversaire() {
                     {imageList.map((image, index) => (
                         <CCarouselItem>
                             <CImage key={index} className="d-block w-100" src={image} alt={`image-${index}`} />
-                            {console.log(image)}
                         </CCarouselItem>
                     ))}
                 </CCarousel>

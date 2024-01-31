@@ -42,6 +42,22 @@ export default function Tarifs() {
                     </div>
                 </article>
                 <article className="cardfee">
+                    <h2>Forfait grossesse + naissance</h2>
+                    <ul>
+                        <li>20 fichiers numériques HD (10 × grossesse, 10 × naissance)</li>
+                        <li>Première séance photo d'environ une heure (en studio ou en extérieur)</li>
+                        <li>Seconde Séance photo d'environ trois heures (en studio)</li>
+                        <li>Le savoir-faire de votre photographe</li>
+                        <li>Tri et retouches soignées de vos images</li>
+                        <li>Prêt de tenues et accessoires</li>
+                        <li>Galerie en ligne pour le choix de vos photos</li>
+                    </ul>
+                    <div className="tarif">
+                        <div>420 €</div>
+                        <NavLink to="/contact" className="button button--tarif">Réserver</NavLink>
+                    </div>
+                </article>
+                <article className="cardfee">
                     <h2>Séance enfants / bébés <br />
                     <p className="title-info">(à partir de 6 mois)</p></h2>
                     <ul>
@@ -118,7 +134,7 @@ export default function Tarifs() {
                 <ul className="other-options-list">
                     <li>Possibilité autres formats ou produits (devis sur demande)</li>
                     <li>Bons cadeaux disponibles pour tous types de séances</li>
-                    <li className="paiement3x">Paiement en 2 ou 3 fois acceptés</li>
+                    <li className="paiement3x">Paiement en 2 ou 3 fois acceptés (le solde doit être réglé avant le jour de votre séance)</li>
                     <li>Modes de paiement acceptés : espèces, chèque, virement bancaire ou PayPal</li>
                 </ul>
             </section>

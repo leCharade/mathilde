@@ -16,12 +16,12 @@ export default function Accueil() {
             <section className="introduction">
                 <div className="alpha-grey"></div>
                 <div className="introduction__welcome">
-                    <h1>Bienvenue</h1>
-                    <p>Je suis Mathilde, photographe professionnelle spécialisée dans la maternité, les nouveau-nés et les bébés... J'aime également photographier les couples et vos familles.</p>
+                    <h1>Bonjour !</h1>
+                    <p>Je suis Mathilde, photographe professionnelle sur Frontignan. Spécialisée dans la maternité, les nouveau-nés et les bébés mais je photographie aussi les familles, les couples et les animaux.</p>
                 </div>
             </section>
             <section className="works">
-                <h2>J'aime la vie, j'aime mon métier, et je le fais avec amour et passion ! Maintenant vous en savez un peu plus sur moi, je vous laisse découvrir mon travail...</h2>
+                <h2>J'aime la vie, j'aime mon métier, et je le fais avec amour et passion ! Bienvenue sur mon site, je vous laisse à présent découvrir mon travail...</h2>
                 {/* <div className="works__photos">
                     <img src={image1} />
                     <img src={image2} />
