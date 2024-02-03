@@ -120,7 +120,7 @@ exports.getMail = (req, res) => {
 
     const mailOptions = {
         from:'noreply@photographiebymathilde.fr',
-        to:'tom.tournillon@gmail.com',
+        to:'contact@photographiebymathilde.fr',
         subject:mailSubject,
         html:mailMessage
     }
