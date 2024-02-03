@@ -20,7 +20,7 @@ export default function Contact() {
         message: ''
     })
 
-    const testMode = true;
+    const testMode = false;
     let url
 
     if (testMode) {

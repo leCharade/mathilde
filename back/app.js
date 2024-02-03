@@ -30,9 +30,9 @@ app.use(helmet({
 app.use(limiter);
 app.use(express.json());
 
-// app.use('/api/contact', contactRoutes);
-app.use((req, res) => {
-   res.json({ message: 'Votre requête a bien été reçue !' }); 
-});
+app.use('/api/contact', contactRoutes);
+// app.use((req, res) => {
+//    res.json({ message: 'Votre requête a bien été reçue !' }); 
+// });
 
 module.exports = app;
