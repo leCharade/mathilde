@@ -1,4 +1,5 @@
 const nodemailer = require('nodemailer');
+const smtpTransport = require('nodemailer-smtp-transport');
 const dotenv = require('dotenv');
 
 dotenv.config();
