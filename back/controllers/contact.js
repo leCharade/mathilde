@@ -1,5 +1,6 @@
 const nodemailer = require('nodemailer');
 const smtpTransport = require('nodemailer-smtp-transport');
+const escapeHtml = require('escape-html');
 const dotenv = require('dotenv');
 
 dotenv.config();
@@ -105,12 +106,12 @@ exports.getMail = (req, res) => {
         res.status(401).json({ message: "Veuillez écrire un message !" })  
     }
 
-    const mailMessage = `<p><strong>Nom :</strong> ` + mail.nom + `</p>` +
-    `<p><strong>Prénom :</strong> ` + mail.prenom + `</p>` +
-    `<p><strong>Téléphone :</strong> ` + mail.telephone + `</p>` +
-    `<p><strong>Adresse email :</strong> ` + mail.email + `</p>` +
-    `<p><strong>Motif de la demande : ` + mailSubject + `</strong></p><br />` +
-    `<p><strong>Message :</strong></p><p>` + mail.message + `</p>`
+    const mailMessage = `<p><strong>Nom :</strong> ${escapeHtml(mail.nom)}</p>
+    <p><strong>Prénom :</strong> ${escapeHtml(mail.prenom)}</p>
+    <p><strong>Téléphone :</strong> ${escapeHtml(mail.telephone)}</p>
+    <p><strong>Adresse email :</strong> ${escapeHtml(mail.email)}</p>
+    <p><strong>Motif de la demande : ${escapeHtml(mailSubject)}</strong></p><br />
+    <p><strong>Message :</strong></p><p>${escapeHtml(mail.message)}</p>`;
 
     const mailOptions = {
         from:'noreply@photographiebymathilde.fr',
