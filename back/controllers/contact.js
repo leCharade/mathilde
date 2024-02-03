@@ -116,7 +116,7 @@ exports.getMail = (req, res) => {
         from:'noreply@photographiebymathilde.fr',
         to:'tom.tournillon@gmail.com',
         subject:mailSubject,
-        text:mailMessage
+        html:mailMessage
     }
 
     transporter.sendMail(mailOptions, function(error, info) {
