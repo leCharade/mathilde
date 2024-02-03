@@ -657,3 +657,20 @@ footer ul li a {
   margin-right: 16px;
   font-size: 16px;
 }
+
+.form-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.form-title .bar {
+  height: 1px;
+  background-color: #4d4547;
+  flex: 1 1 auto;
+}
+.form-title h2 {
+  font-weight: bold;
+  font-size: 48px;
+  margin: 16px;
+  flex: 0 1 auto;
+}

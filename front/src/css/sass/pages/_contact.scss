@@ -4,3 +4,20 @@
         font-size:16px;
     }
 }
+.form-title {
+    display:flex;
+    align-items: center;
+    width:100%;
+    .bar {
+        height:1px;
+        background-color: #4d4547;
+        flex: 1 1 auto;
+    }
+    h2 {
+        font-weight:bold;
+        font-size:48px;
+
+        margin:16px;
+        flex:0 1 auto;
+    }
+}
