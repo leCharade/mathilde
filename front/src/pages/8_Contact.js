@@ -57,8 +57,6 @@ export default function Contact() {
             - Message`
         }
 
-        console.log(errorData);
-
         if (errorData === "Merci de compléter les données manquantes : ") {
             fetch('http://' + url + 'contact', {
                     method: 'POST',
