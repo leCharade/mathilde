@@ -105,12 +105,12 @@ exports.getMail = (req, res) => {
         res.status(401).json({ message: "Veuillez écrire un message !" })  
     }
 
-    const mailMessage = '<p><strong>Nom :</strong> ' + mail.nom + '</p>' +
-    '<p><strong>Prénom :</strong> ' + mail.prenom + '</p>' +
-    '<p><strong>Téléphone :</strong> ' + mail.telephone + '</p>' +
-    '<p><strong>Adresse email :</strong> ' + mail.email + '</p>' +
-    '<p><strong>Motif de la demande : ' + mailSubject + '</strong></p><br />' +
-    '<p><strong>Message :</strong></p><p>' + mail.nom + '</p>'
+    const mailMessage = `<p><strong>Nom :</strong> ` + mail.nom + `</p>` +
+    `<p><strong>Prénom :</strong> ` + mail.prenom + `</p>` +
+    `<p><strong>Téléphone :</strong> ` + mail.telephone + `</p>` +
+    `<p><strong>Adresse email :</strong> ` + mail.email + `</p>` +
+    `<p><strong>Motif de la demande : ` + mailSubject + `</strong></p><br />` +
+    `<p><strong>Message :</strong></p><p>` + mail.nom + `</p>`
 
     const mailOptions = {
         from:'noreply@photographiebymathilde.fr',
