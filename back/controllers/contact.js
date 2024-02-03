@@ -115,7 +115,7 @@ exports.getMail = (req, res) => {
     <p><strong>Téléphone :</strong> ${escapeHtml(mail.telephone)}</p>
     <p><strong>Adresse email :</strong> ${escapeHtml(mail.email)}</p>
     <p><strong>Motif de la demande : ${escapeHtml(mailSubject)}</strong></p><br />
-    <p><strong>Message :</strong></p><p>${escapeHtmlBr(mail.message)}</p>`;
+    <p><strong>Message :</strong></p><p>` + escapeHtmlBr(mail.message) + `</p>`;
 
     const mailOptions = {
         from:'noreply@photographiebymathilde.fr',
