@@ -58,7 +58,7 @@ export default function Contact() {
         }
 
         if (errorData === "Merci de compléter les données manquantes : ") {
-            fetch('http://' + url + 'contact', {
+            fetch('https://' + url + 'contact', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
