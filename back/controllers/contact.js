@@ -16,7 +16,7 @@ exports.getMail = (req, res) => {
         }
     }));
 
-
+    console.log(process.env.MAIL_ADDRESS, process.env.MAIL_PASSWORD)
     const mail = {
         objet: req.body.objet,
         seance: req.body.seance,
@@ -35,7 +35,6 @@ exports.getMail = (req, res) => {
         text:mail.message
     }
 
-    console.log(mail)
     transporter.sendMail(mailOptions, function(error, info) {
         if (error) {
             console.log(error)
