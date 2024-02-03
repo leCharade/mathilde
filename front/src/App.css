@@ -271,6 +271,25 @@ footer ul li a {
   background-color: #ceb0b5;
   color: #171515;
 }
+.button--contact {
+  background-color: #4d4547;
+  color: white;
+  font-size: 24px;
+  margin: 32px auto;
+  padding: 16px 64px;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .button--contact {
+    font-size: 20px;
+    padding: 12px 48px;
+    margin: 12px auto 24px auto;
+  }
+}
+.button--contact:hover {
+  background-color: #837579;
+  color: #171515;
+}
 
 .liste-tarifs {
   display: flex;
@@ -673,4 +692,89 @@ footer ul li a {
   font-size: 48px;
   margin: 16px;
   flex: 0 1 auto;
+}
+@media screen and (max-width: 768px) {
+  .form-title h2 {
+    font-size: 24px;
+  }
+}
+
+#formulaire-contact {
+  width: 620px;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  #formulaire-contact {
+    width: 90%;
+  }
+}
+#formulaire-contact .form-line {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#formulaire-contact .form-line .contact-list {
+  width: 300px;
+}
+@media screen and (max-width: 768px) {
+  #formulaire-contact .form-line .contact-list {
+    width: 100%;
+    margin-top: 4px;
+  }
+}
+#formulaire-contact .form-line .contact-input--motif {
+  width: 400px;
+}
+@media screen and (max-width: 768px) {
+  #formulaire-contact .form-line .contact-input--motif {
+    width: 100%;
+    margin-top: 4px;
+  }
+}
+#formulaire-contact .form-line .contact-input--nom {
+  width: 220px;
+}
+@media screen and (max-width: 768px) {
+  #formulaire-contact .form-line .contact-input--nom {
+    width: 55vw;
+    margin-bottom: 4px;
+    margin-left: 15vw;
+  }
+}
+#formulaire-contact .form-line .contact-input--prenom {
+  width: 220px;
+}
+@media screen and (max-width: 768px) {
+  #formulaire-contact .form-line .contact-input--prenom {
+    width: 55vw;
+    margin-bottom: 4px;
+  }
+}
+#formulaire-contact .form-line .contact-input--telephone {
+  width: 140px;
+}
+@media screen and (max-width: 768px) {
+  #formulaire-contact .form-line .contact-input--telephone {
+    width: 55vw;
+    margin-bottom: 4px;
+  }
+}
+#formulaire-contact .form-line .contact-input--email {
+  width: 260px;
+}
+@media screen and (max-width: 768px) {
+  #formulaire-contact .form-line .contact-input--email {
+    width: 55vw;
+    margin-bottom: 4px;
+  }
+}
+#formulaire-contact p {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic;
+}
+#formulaire-contact textarea {
+  width: 100%;
+  margin: 10px 0;
 }

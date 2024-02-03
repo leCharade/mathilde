@@ -16,8 +16,77 @@
     h2 {
         font-weight:bold;
         font-size:48px;
-
         margin:16px;
         flex:0 1 auto;
+        @include mobile-only {
+            font-size:24px;
+        }
+    }
+}
+#formulaire-contact {
+    width:620px;
+    margin:auto;
+    @include mobile-only {
+        width:90%;
+    }
+    .form-line {
+        margin:10px 0;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        .contact-list {
+            width:300px;
+            @include mobile-only {
+                width:100%;
+                margin-top:4px;
+            }
+        }
+        .contact-input {
+            &--motif {
+                width:400px;
+                @include mobile-only {
+                    width:100%;
+                    margin-top:4px;
+                }
+            }
+            &--nom {
+                width:220px;
+                @include mobile-only {
+                    width:55vw;
+                    margin-bottom:4px;
+                    margin-left:15vw;
+                }
+            }
+            &--prenom {
+                width:220px;
+                @include mobile-only {
+                    width:55vw;
+                    margin-bottom:4px;
+                }
+            }
+            &--telephone {
+                width:140px;
+                @include mobile-only {
+                    width:55vw;
+                    margin-bottom:4px;
+                }
+            }
+            &--email {
+                width:260px;
+                @include mobile-only {
+                    width:55vw;
+                    margin-bottom:4px;
+                }
+            }
+        }
+    }
+    p {
+        font-size:16px;
+        line-height:22px;
+        font-style:italic;
+    }
+    textarea {
+        width:100%;
+        margin:10px 0;
     }
 }
