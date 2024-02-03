@@ -5,6 +5,8 @@ const rateLimit = require('express-rate-limit')
 
 dotenv.config();
 
+const contactRoutes = require('./routes/contact');
+
 const app = express();
 
 app.use((req, res, next) => {
@@ -27,5 +29,10 @@ app.use(helmet({
   }));
 app.use(limiter);
 app.use(express.json());
+
+// app.use('/api/contact', contactRoutes);
+app.use((req, res) => {
+   res.json({ message: 'Votre requête a bien été reçue !' }); 
+});
 
 module.exports = app;

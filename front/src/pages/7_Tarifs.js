@@ -46,7 +46,7 @@ export default function Tarifs() {
                     <ul>
                         <li>20 fichiers numériques HD (10 × grossesse, 10 × naissance)</li>
                         <li>Première séance photo d'environ une heure (en studio ou en extérieur)</li>
-                        <li>Seconde Séance photo d'environ trois heures (en studio)</li>
+                        <li>Seconde séance photo d'environ trois heures (en studio)</li>
                         <li>Le savoir-faire de votre photographe</li>
                         <li>Tri et retouches soignées de vos images</li>
                         <li>Prêt de tenues et accessoires</li>

@@ -1,9 +1,10 @@
 import React from 'react';
+import { useState } from 'react';
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 
 export default function Map() {
 
-    const libraries = ['places'];
+    const [ libraries ] = useState(['places']);
     const center = {
         lat: 43.444815, // default latitude
         lng: 3.755999, // default longitude
@@ -11,7 +12,7 @@ export default function Map() {
 
     const { isLoaded, loadError } = useLoadScript({
         googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
-        libraries,
+        libraries
     });
     
     if (loadError) {
