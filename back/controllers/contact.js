@@ -110,7 +110,7 @@ exports.getMail = (req, res) => {
     `<p><strong>Téléphone :</strong> ` + mail.telephone + `</p>` +
     `<p><strong>Adresse email :</strong> ` + mail.email + `</p>` +
     `<p><strong>Motif de la demande : ` + mailSubject + `</strong></p><br />` +
-    `<p><strong>Message :</strong></p><p>` + mail.nom + `</p>`
+    `<p><strong>Message :</strong></p><p>` + mail.message + `</p>`
 
     const mailOptions = {
         from:'noreply@photographiebymathilde.fr',
