@@ -7,7 +7,7 @@ dotenv.config();
 
 function escapeHtmlBr(input) {
     const escape = escapeHtml(input);
-    escape.replace(/\n/g, '<br />');
+    return escape.replace(/\n/g, '<br />');
 }
 
 exports.getMail = (req, res) => {
