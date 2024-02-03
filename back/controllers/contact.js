@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 function escapeHtmlBr(input) {
-    return escapeHtml(input.replace(/\n/g, '<br>'));
+    return escapeHtml(input.replace(/\n/g, '<br />'));
 }
 
 exports.getMail = (req, res) => {
